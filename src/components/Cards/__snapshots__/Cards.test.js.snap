@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches card snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="card"
+  >
+    <div
+      class="wrap-img"
+    >
+      <img
+        alt="Avatar"
+        src="https://www.w3schools.com/howto/img_avatar2.png"
+        style="width: 100%;"
+      />
+    </div>
+    <div
+      class="card-body"
+    >
+      <div
+        class="card-title"
+        title="FalconSat # 1"
+      >
+        FalconSat # 1
+      </div>
+      <div>
+        <span
+          class="card-sub-heading"
+        >
+          Mission Ids:
+        </span>
+        <ul />
+      </div>
+      <div>
+        <div
+          class="card-sub-heading"
+        >
+          Launch Year:
+        </div>
+         
+        <span
+          class="card-text"
+        >
+          2006
+        </span>
+      </div>
+      <div>
+        <div
+          class="card-sub-heading"
+        >
+           Successful Launch:
+        </div>
+         
+        <span
+          class="card-text capital-text"
+        >
+          false
+        </span>
+      </div>
+      <div>
+        <div
+          class="card-sub-heading"
+        >
+          Successful Landing:
+        </div>
+         
+        <span
+          class="card-text"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
