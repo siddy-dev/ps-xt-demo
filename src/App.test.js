@@ -10,6 +10,6 @@ test("renders try from there text for 404", () => {
       <App />
     </Router>
   );
-  const linkElement = screen.getByText(/try from there/i);
+  const linkElement = screen.getByText(/SpaceX Launch Programs/i);
   expect(linkElement).toBeInTheDocument();
 });

@@ -26,7 +26,7 @@ function App() {
         ]}
       />
       <Switch>
-        <Route path="/home" exact component={LandingPage} />
+        <Route path="/" exact component={LandingPage} />
         <Route path="/404" component={NotFoundPage} />
         <Redirect to="/404" />
       </Switch>
