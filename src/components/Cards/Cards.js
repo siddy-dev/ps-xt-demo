@@ -6,8 +6,7 @@ const Cards = ({ program }) => {
     <div className="card">
       <div className="wrap-img">
         <img
-          // src={program.links.mission_patch}
-          src="https://www.w3schools.com/howto/img_avatar2.png"
+          src={program.links.mission_patch}
           alt={program.mission_name}
           style={{ width: "100%" }}
         />
