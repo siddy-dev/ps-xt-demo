@@ -9,7 +9,7 @@ const StaticRouter = require("react-router").StaticRouter;
 const app = express();
 
 // import App component
-const App = require(path.resolve(__dirname, "../src/app")).default;
+const App = require(path.resolve(__dirname, "../src/App")).default;
 
 // serve static assets
 app.get(
