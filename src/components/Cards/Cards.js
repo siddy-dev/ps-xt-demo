@@ -1,6 +1,5 @@
 import React from "react";
 import "./cards.scss";
-// import placeHolder from "../assests/GypSkayF_o.png";
 
 const Cards = ({ program }) => {
   return (
@@ -8,9 +7,8 @@ const Cards = ({ program }) => {
       <div className="wrap-img">
         <img
           // src={program.links.mission_patch}
-          // src={placeHolder}
           src="https://www.w3schools.com/howto/img_avatar2.png"
-          alt="Avatar"
+          alt={program.mission_name}
           style={{ width: "100%" }}
         />
       </div>

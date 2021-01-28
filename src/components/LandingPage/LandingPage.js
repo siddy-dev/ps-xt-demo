@@ -26,7 +26,6 @@ const LandingPage = (props) => {
     setError({});
     getPrograms(year, launchVal, landingVal)
       .then((items) => {
-        console.log("items", items);
         setPrograms(items);
         setLoading(false);
       })
