@@ -17,13 +17,10 @@
   },
   "scripts": {
     "start": "node server",
-    "start:cra": "react-scripts start",
-    "start:webpack": "NODE_ENV=development webpack serve",
-    "build": "NODE_ENV=production webpack",
-    "build:cra": "react-scripts build",
-    "build:dev": "NODE_ENV=development webpack",
-    "test": "jest",
-    "eject": "react-scripts eject"
+    "build": "NODE_ENV=development webpack",
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "npm run build",
+    "test": "jest"
   },
   "jest": {
     "verbose": true,
